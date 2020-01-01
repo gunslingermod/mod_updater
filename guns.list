@@ -196,8 +196,8 @@ compression = 2
 [file_36]
 path=patches\guns_data_meshes_ss.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_ss.db
-size=37362024
-crc32=7958519D
+size=37362074
+crc32=822EEEE4
 compression = 2
 [file_37]
 path=patches\guns_data_meshes_tz.db
@@ -214,8 +214,8 @@ compression = 2
 [file_39]
 path=patches\guns_data_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_plaintext.db
-size=5593682 
-crc32=2EC4E296
+size=5593874 
+crc32=16364E15
 compression = 2
 [file_40]
 path=patches\guns_data_resources.db
