@@ -35,8 +35,8 @@ crc32=B3109DC1
 [file_5]
 path=bin\gunslinger_wpnpatch.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/gunslinger_wpnpatch.dll
-size=305664
-crc32=EA9A57EF
+size=306176
+crc32=B8EE7B61
 [file_6]
 path=bin\lua.JIT.1.1.4.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/lua.JIT.1.1.4.dll
@@ -214,8 +214,8 @@ compression = 2
 [file_39]
 path=patches\guns_data_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_plaintext.db
-size=5596802 
-crc32=3F0D21F2
+size=5648386 
+crc32=564C9165
 compression = 2
 [file_40]
 path=patches\guns_data_resources.db
