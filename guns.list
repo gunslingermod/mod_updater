@@ -36,7 +36,7 @@ crc32=B3109DC1
 path=bin\gunslinger_wpnpatch.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/gunslinger_wpnpatch.dll
 size=306176
-crc32=B8EE7B61
+crc32=B097C6CF
 [file_6]
 path=bin\lua.JIT.1.1.4.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/lua.JIT.1.1.4.dll
