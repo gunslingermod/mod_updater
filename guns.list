@@ -1,7 +1,7 @@
 [updater]
 url = https://raw.githubusercontent.com/gunslingermod/mod_data/master/CheckUpdates.exe_
-md5 = 687C0507A480AFA8F39AAA5DB1CDD599
-size = 2790400   
+md5 = 9BD8FAD56C3C36C78FF55849994CD481
+size = 2793472  
 
 [main]
 files_count=63
