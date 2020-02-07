@@ -4,8 +4,19 @@ md5 = 687C0507A480AFA8F39AAA5DB1CDD599
 size = 2790400   
 
 [main]
-files_count=61
-maintenance = false
+files_count=63
+maintenance = true
+options_count = 0
+
+[option_0]
+key = new_hands
+name_en = New hands
+name_ru = Новые руки
+
+[updater]
+url = https://raw.githubusercontent.com/gunslingermod/mod_data/master/CheckUpdates.exe_
+md5 = 687C0507A480AFA8F39AAA5DB1CDD599
+size = 2790400 
 
 [file_0]
 path=bin\BugTrap.dll
@@ -35,8 +46,8 @@ crc32=B3109DC1
 [file_5]
 path=bin\gunslinger_wpnpatch.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/gunslinger_wpnpatch.dll
-size=306176
-crc32=B097C6CF
+size=311808 
+crc32=9915D44C
 [file_6]
 path=bin\lua.JIT.1.1.4.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/lua.JIT.1.1.4.dll
@@ -106,7 +117,7 @@ crc32=E4423220
 path=bin\xrGame.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrGame.dll
 size=7258816
-crc32=A45E18EB
+crc32=D4FF11DC
 [file_20]
 path=bin\xrGameSpy.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrGameSpy.dll
@@ -158,172 +169,181 @@ url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrXMLPar
 size=62144
 crc32=1BEAF462
 [file_30]
+path=bin\proxy.dll
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/proxy.dll
+size=381440 
+crc32=EE777223
+[file_31]
 path=patches\game_data_patch_1602.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/game_data_patch_1602.db
 size=35199417
 crc32=EEE94EBA
 compression = 2
-[file_31]
+[file_32]
 path=patches\guns_data_camanims.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_camanims.db
-size=841298
-crc32=FCF51F57
-compression = 2
-[file_32]
-path=patches\guns_data_meshes.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes.db
-size=25094258
-crc32=7ADCF490
+size=844275 
+crc32=5F7227AC
 compression = 2
 [file_33]
-path=patches\guns_data_meshes_af.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_af.db
-size=44685630
-crc32=E31FD8A7
+path=patches\guns_data_hands.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_hands.db
+size=74517054
+crc32=787E72CC
 compression = 2
+;condition = !new_hands
 [file_34]
-path=patches\guns_data_meshes_gl.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_gl.db
-size=45634686
-crc32=599DA1C1
+path=patches\guns_data_meshes.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes.db
+size=24923745 
+crc32=0394DE4D
 compression = 2
 [file_35]
+path=patches\guns_data_meshes_af.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_af.db
+size=44797784
+crc32=A624AB3E
+compression = 2
+[file_36]
+path=patches\guns_data_meshes_gl.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_gl.db
+size=38766651 
+crc32=6651CDB6
+compression = 2
+[file_37]
 path=patches\guns_data_meshes_mr.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_mr.db
 size=32649417
 crc32=7A36C950
 compression = 2
-[file_36]
+[file_38]
 path=patches\guns_data_meshes_ss.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_ss.db
 size=37362074
 crc32=822EEEE4
 compression = 2
-[file_37]
+[file_39]
 path=patches\guns_data_meshes_tz.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_tz.db
 size=34118675
 crc32=AE1DAF68
 compression = 2
-[file_38]
+[file_40]
 path=patches\guns_data_meshes_wpn.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_wpn.db
 size=6727439
 crc32=E305633D
 compression = 2
-[file_39]
+[file_41]
 path=patches\guns_data_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_plaintext.db
-size=5648384 
-crc32=89CE2501
+size=5737557 
+crc32=5B19E6F3
 compression = 2
-[file_40]
+[file_42]
 path=patches\guns_data_resources.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_resources.db
 size=1763734
 crc32=E1EFDC69
 compression = 2
-[file_41]
+[file_43]
 path=patches\guns_data_sounds.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_sounds.db
-size=18263024
-crc32=E929B4BE
-compression = 2
-[file_42]
-path=patches\guns_data_textures_act.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_act.db
-size=63884610
-crc32=C9D4DEED
-compression = 2
-[file_43]
-path=patches\guns_data_textures_common.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_common.db
-size=81788443
-crc32=47ED72C2
+size=18426147
+crc32=E3503C2B
 compression = 2
 [file_44]
-path=patches\guns_data_textures_wpn_ad.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_ad.db
-size=67161479
-crc32=B06E59D2
+path=patches\guns_data_textures_common.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_common.db
+size=103644150
+crc32=B0524AF5
 compression = 2
 [file_45]
-path=patches\guns_data_textures_wpn_fg.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_fg.db
-size=85547348
-crc32=D09911E0
+path=patches\guns_data_textures_wpn_ad.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_ad.db
+size=68019517
+crc32=B7466C96
 compression = 2
 [file_46]
-path=patches\guns_data_textures_wpn_hp.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_hp.db
-size=66113598
-crc32=0C6310AD
+path=patches\guns_data_textures_wpn_fg.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_fg.db
+size=90025854
+crc32=BBC0C54C
 compression = 2
 [file_47]
-path=patches\guns_data_textures_wpn_rs.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_rs.db
-size=87789084
-crc32=88B4E398
+path=patches\guns_data_textures_wpn_hp.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_hp.db
+size=65895535
+crc32=B75E0059
 compression = 2
 [file_48]
-path=patches\guns_data_textures_wpn_tw.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_tw.db
-size=35612297
-crc32=FCCA7E00
+path=patches\guns_data_textures_wpn_rs.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_rs.db
+size=88532043
+crc32=ABA95709
 compression = 2
 [file_49]
-path=patches\guns_data_textures_wpn_wpn_ag.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_ag.db
-size=114155052
-crc32=1B265ABF
+path=patches\guns_data_textures_wpn_tw.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_tw.db
+size=41428331
+crc32=1BDBFB16
 compression = 2
 [file_50]
-path=patches\guns_data_textures_wpn_wpn_hk.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_hk.db
-size=56871253
-crc32=812F71FC
+path=patches\guns_data_textures_wpn_wpn_ag.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_ag.db
+size=116470847
+crc32=2E2606B5
 compression = 2
 [file_51]
-path=patches\guns_data_textures_wpn_wpn_lm.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_lm.db
-size=70160995
-crc32=768B2DC2
+path=patches\guns_data_textures_wpn_wpn_hk.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_hk.db
+size=49378409
+crc32=3F2692D7
 compression = 2
 [file_52]
-path=patches\guns_data_textures_wpn_wpn_pr.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_pr.db
-size=56451939
-crc32=01D2190C
+path=patches\guns_data_textures_wpn_wpn_lm.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_lm.db
+size=73853114
+crc32=11AFA833
 compression = 2
 [file_53]
-path=patches\guns_data_textures_wpn_wpn_ss.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_ss.db
-size=222582408
-crc32=78E87297
+path=patches\guns_data_textures_wpn_wpn_pr.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_pr.db
+size=59422966
+crc32=2DD63EF6
 compression = 2
 [file_54]
-path=patches\guns_data_textures_wpn_wpn_tz.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_tz.db
-size=69391126
-crc32=20A1DE4E
+path=patches\guns_data_textures_wpn_wpn_ss.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_ss.db
+size=233854973
+crc32=E55696E6
 compression = 2
 [file_55]
+path=patches\guns_data_textures_wpn_wpn_tz.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_tz.db
+size=62919886
+crc32=CBE1A8AE
+compression = 2
+[file_56]
 path=Play GUNSLINGER Mod.exe
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/launch.exe_
 size=1993216 
 crc32=8D34EC63
-[file_56]
+[file_57]
 path=patches\guns_data_textures.db0
 delete=true
-[file_57]
+[file_58]
 path=patches\guns_data_textures.db1
 delete=true
-[file_58]
+[file_59]
 path=patches\guns_data_textures.db2
 delete=true
-[file_59]
+[file_60]
 path=patches\guns_data_textures.db3
 delete=true
-[file_60]
+[file_61]
 path=patches\guns_data_textures.db4
+delete=true
+[file_62]
+path=patches\guns_data_textures_act.db
 delete=true
