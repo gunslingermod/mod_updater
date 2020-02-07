@@ -310,8 +310,8 @@ compression = 2
 [file_55]
 path=Play GUNSLINGER Mod.exe
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/launch.exe_
-size=67072
-crc32=0E200226
+size=1993216 
+crc32=9414EBF1
 [file_56]
 path=patches\guns_data_textures.db0
 delete=true
