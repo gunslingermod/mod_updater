@@ -1,7 +1,7 @@
 [updater]
 url = https://raw.githubusercontent.com/gunslingermod/mod_data/master/CheckUpdates.exe_
-md5 = 44D4F3C15530C1F3EE8FD052AF3E275E
-size = 2793472  
+md5 = 42CD0BEB037292F031701D16600A756E
+size = 2795520   
 
 [main]
 files_count=63
@@ -12,11 +12,6 @@ options_count = 0
 key = new_hands
 name_en = New hands
 name_ru = Новые руки
-
-[updater]
-url = https://raw.githubusercontent.com/gunslingermod/mod_data/master/CheckUpdates.exe_
-md5 = 687C0507A480AFA8F39AAA5DB1CDD599
-size = 2790400 
 
 [file_0]
 path=bin\BugTrap.dll
