@@ -166,8 +166,8 @@ crc32=1BEAF462
 [file_30]
 path=bin\proxy.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/proxy.dll
-size=382464  
-crc32=C1C14449
+size=381952   
+crc32=A445AF77
 [file_31]
 path=patches\game_data_patch_1602.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/game_data_patch_1602.db
