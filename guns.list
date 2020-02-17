@@ -168,6 +168,7 @@ path=bin\proxy.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/proxy.dll
 size=381952   
 crc32=A445AF77
+condition = new_hands
 [file_31]
 path=patches\game_data_patch_1602.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/game_data_patch_1602.db
