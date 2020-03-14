@@ -4,14 +4,14 @@ md5 = 42CD0BEB037292F031701D16600A756E
 size = 2795520   
 
 [main]
-files_count=63
+files_count=65
 maintenance = false
-options_count = 0
+options_count = 1
 
 [option_0]
 key = new_hands
-name_en = New hands
-name_ru = Новые руки
+name_en = New hands pack
+name_ru = Пак обновленных моделей рук
 
 [file_0]
 path=bin\BugTrap.dll
@@ -168,7 +168,7 @@ path=bin\proxy.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/proxy.dll
 size=381952   
 crc32=A445AF77
-condition = new_hands
+condition = need_proxy
 [file_31]
 path=patches\game_data_patch_1602.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/game_data_patch_1602.db
@@ -187,7 +187,7 @@ url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns
 size=74517054
 crc32=787E72CC
 compression = 2
-;condition = !new_hands
+condition = !new_hands
 [file_34]
 path=patches\guns_data_meshes.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes.db
@@ -343,3 +343,20 @@ delete=true
 [file_62]
 path=patches\guns_data_textures_act.db
 delete=true
+
+;/////////////////////////////////////////////////////////////////
+; Optional and additional files
+[file_63]
+path=patches\guns_data_hands_new_part1.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_hands_new_part1.db
+size=121276784 
+crc32=0009292F
+compression = 2
+condition = new_hands
+[file_64]
+path=patches\guns_data_hands_new_part2.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_hands_new_part2.db
+size=109328087 
+crc32=2845C471
+compression = 2
+condition = new_hands
