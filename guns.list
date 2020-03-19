@@ -349,8 +349,8 @@ delete=true
 [file_63]
 path=patches\guns_data_hands_new_part1.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_hands_new_part1.db
-size=121276784 
-crc32=0009292F
+size=137355937 
+crc32=8D218FAB
 compression = 2
 condition = new_hands
 [file_64]
