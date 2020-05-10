@@ -6,17 +6,17 @@ size = 2796032
 [main]
 files_count=72
 maintenance = false
-options_count = 1
+options_count = 2
 
 [option_0]
 key = new_hands
 name_en = New hands pack
 name_ru = Пак обновленных моделей рук
 
-;[option_1]
-;key = grass500
-;name_en = Extended grass distance
-;name_ru = Увеличенная дальность отрисовки травы
+[option_1]
+key = grass500
+name_en = Extended grass distance
+name_ru = Увеличенная дальность отрисовки травы
 
 [file_0]
 path=bin\BugTrap.dll
