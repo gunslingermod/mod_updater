@@ -4,19 +4,14 @@ md5 = 1D71ECE014382D92498C00136A198626
 size = 2796032   
 
 [main]
-files_count=72
+files_count=68
 maintenance = true
-options_count = 2
+options_count = 1
 
 [option_0]
 key = new_hands
 name_en = New hands pack
 name_ru = Пак обновленных моделей рук
-
-[option_1]
-key = grass500
-name_en = Extended grass distance
-name_ru = Увеличенная дальность отрисовки травы
 
 [file_0]
 path=bin\BugTrap.dll
@@ -143,25 +138,21 @@ path=bin\xrRender_R1.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrRender_R1.dll
 size=1012416
 crc32=E4D76A6F
-condition = !grass500
 [file_25]
 path=bin\xrRender_R2.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrRender_R2.dll
 size=1180352
 crc32=38C68682
-condition = !grass500
 [file_26]
 path=bin\xrRender_R3.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrRender_R3.dll
 size=1311424
 crc32=36F65285
-condition = !grass500
 [file_27]
 path=bin\xrRender_R4.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrRender_R4.dll
 size=1368768
 crc32=37140133
-condition = !grass500
 [file_28]
 path=bin\xrSound.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrSound.dll
@@ -386,28 +377,3 @@ crc32=2845C471
 compression = 2
 condition = new_hands
 
-
-[file_68]
-path=bin\xrRender_R1.dll
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/grass500/xrRender_R1.dll
-size=1012416
-crc32=39964D66
-condition = grass500
-[file_69]
-path=bin\xrRender_R2.dll
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/grass500/xrRender_R2.dll
-size=1180352
-crc32=1A7EA9AC
-condition = grass500
-[file_70]
-path=bin\xrRender_R3.dll
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/grass500/xrRender_R3.dll
-size=1311424
-crc32=F51183A5
-condition = grass500
-[file_71]
-path=bin\xrRender_R4.dll
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/grass500/xrRender_R4.dll
-size=1368768
-crc32=B0BD0347
-condition = grass500
