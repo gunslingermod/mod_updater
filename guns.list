@@ -187,8 +187,8 @@ compression = 2
 [file_32]
 path=patches\guns_data_camanims.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_camanims.db
-size=860076 
-crc32=792673B2
+size=861004 
+crc32=DF078B98
 compression = 2
 [file_33]
 path=patches\guns_data_hands.db
@@ -218,8 +218,8 @@ compression = 2
 [file_37]
 path=patches\guns_data_meshes_mr.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_mr.db
-size=32649422
-crc32=3B30B202
+size=31093532
+crc32=4E32D232
 compression = 2
 [file_38]
 path=patches\guns_data_meshes_ss.db
@@ -242,8 +242,8 @@ compression = 2
 [file_41]
 path=patches\guns_data_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_plaintext.db
-size=5677900 
-crc32=C5EF19FB
+size=5923819 
+crc32=7CC749DC
 compression = 2
 [file_42]
 path=patches\guns_data_resources.db
@@ -260,8 +260,8 @@ compression = 2
 [file_44]
 path=patches\guns_data_textures_common.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_common.db
-size=95254118
-crc32=8548170C
+size=95254130
+crc32=B1FA13FD
 compression = 2
 [file_45]
 path=patches\guns_data_textures_wpn_ad.db
