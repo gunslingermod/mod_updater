@@ -12,14 +12,14 @@ options_count = 2
 key = new_hands
 name_en = New hands pack
 name_ru = Пак обновленных моделей рук
-group = hands
+groups = hands
 
 [option_1]
 key = an4_autumn
 name_en = Absolute Nature 4 by Cromm Cruac: Autumn Pack
 name_ru = Absolute Nature 4 от Cromm Cruac: Осенний пак
 ; "global" - means global adaptation with own name in gunslinger_addons.ltx
-group = global, world_textures, level_textures, shaders, allspawn
+groups = global, world_textures, level_textures, shaders, allspawn, hands
 
 ;/////////////////////////////////////////////////////////////////
 ; Standard 1.6.02. engine files
