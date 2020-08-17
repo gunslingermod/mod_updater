@@ -18,6 +18,7 @@ group = hands
 key = an4_autumm
 name_en = Absolute Nature 4: Autumm Pack
 name_ru = Absolute Nature 4: Autumm Pack
+; "global" - means global adaptation with own name in gunslinger_addons.ltx
 group = global, world_textures, level_textures, shaders, allspawn
 
 ;/////////////////////////////////////////////////////////////////
