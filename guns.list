@@ -19,7 +19,7 @@ key = an4_autumn
 name_en = Absolute Nature 4 by Cromm Cruac: Autumn Pack
 name_ru = Absolute Nature 4 от Cromm Cruac: Осенний пак
 ; "global" - means global adaptation with own name in gunslinger_addons.ltx
-groups = global, world_textures, level_textures, shaders, allspawn, hands
+groups = global, world_textures, level_textures, shaders, allspawn
 
 ;/////////////////////////////////////////////////////////////////
 ; Standard 1.6.02. engine files
