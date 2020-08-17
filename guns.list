@@ -1,6 +1,6 @@
 [updater]
 url = https://raw.githubusercontent.com/gunslingermod/mod_data/master/CheckUpdates.exe_
-md5 = E0017F7DA10C0EF39DEADD2C5C442002
+md5 = 657E6B9E4AB2C510659996E1E4E7153D
 size = 2799104   
 
 [main]
@@ -300,8 +300,8 @@ compression=2
 [file_52]
 path=patches\guns_data_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_plaintext.db
-size=6284604
-crc32=2A5A5033
+size=6284603
+crc32=89124836
 compression=2
 [file_53]
 path=patches\guns_data_resources.db
