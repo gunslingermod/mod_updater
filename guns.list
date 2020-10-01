@@ -552,8 +552,8 @@ compression=2
 [file_86]
 path=patches\guns_data_textures_wpn_wpn_ss1.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_ss1.db
-size=198899835
-crc32=7B5D4682
+size=202395973
+crc32=F6368E37
 compression=2
 [file_87]
 path=patches\guns_data_textures_wpn_wpn_ss2.db
