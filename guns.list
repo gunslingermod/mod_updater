@@ -16,8 +16,8 @@ groups = hands
 
 [option_1]
 key = unofficial_food
-name_en = Анимации еды (неофициальное фанатский порт)
-name_ru = Food animations (unofficial fan port)
+name_en = Food animations (unofficial fan port)
+name_ru = Анимации еды (неофициальный фанатский порт)
 groups = usable_configs
 
 [option_2]
