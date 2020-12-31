@@ -6,7 +6,7 @@ size = 3026944
 [main]
 files_count=89
 maintenance = true
-options_count = 5
+options_count = 6
 
 [option_0]
 key = new_hands
@@ -15,30 +15,36 @@ name_ru = Пак обновленных моделей рук
 groups = hands
 
 [option_1]
-key = an4_default
-name_en = Absolute Nature 4 by Cromm Cruac: Default Pack
-name_ru = Absolute Nature 4 от Cromm Cruac: Стандартный пак
-; "global" - means global adaptation with own name in gunslinger_addons.ltx
-groups = global, world_textures, level_textures, shaders, allspawn
+key = unofficial_food
+name_en = Анимации еды (неофициальное фанатский порт)
+name_ru = Food animations (unofficial fan port)
+groups = usable_configs
 
 [option_2]
-key = an4_green
-name_en = Absolute Nature 4 by Cromm Cruac: Green Pack
-name_ru = Absolute Nature 4 от Cromm Cruac: Летний пак
+key = an4_default
+name_en = Absolute Nature 4 by Cromm Cruac: Default Pack (warning - saved games incompatibility!)
+name_ru = Absolute Nature 4 от Cromm Cruac: Стандартный пак (внимание - несовместимость сейвов!)
 ; "global" - means global adaptation with own name in gunslinger_addons.ltx
 groups = global, world_textures, level_textures, shaders, allspawn
 
 [option_3]
-key = an4_autumn
-name_en = Absolute Nature 4 by Cromm Cruac: Autumn Pack
-name_ru = Absolute Nature 4 от Cromm Cruac: Осенний пак
+key = an4_green
+name_en = Absolute Nature 4 by Cromm Cruac: Green Pack (warning - saved games incompatibility!)
+name_ru = Absolute Nature 4 от Cromm Cruac: Летний пак (внимание - несовместимость сейвов!)
 ; "global" - means global adaptation with own name in gunslinger_addons.ltx
 groups = global, world_textures, level_textures, shaders, allspawn
 
 [option_4]
+key = an4_autumn
+name_en = Absolute Nature 4 by Cromm Cruac: Autumn Pack (warning - saved games incompatibility!)
+name_ru = Absolute Nature 4 от Cromm Cruac: Осенний пак (внимание - несовместимость сейвов!)
+; "global" - means global adaptation with own name in gunslinger_addons.ltx
+groups = global, world_textures, level_textures, shaders, allspawn
+
+[option_5]
 key = an4_rotten
-name_en = Absolute Nature 4 by Cromm Cruac: Rotten Pack
-name_ru = Absolute Nature 4 от Cromm Cruac: Рыжий пак
+name_en = Absolute Nature 4 by Cromm Cruac: Rotten Pack (warning - saved games incompatibility!)
+name_ru = Absolute Nature 4 от Cromm Cruac: Рыжий пак (внимание - несовместимость сейвов!)
 ; "global" - means global adaptation with own name in gunslinger_addons.ltx
 groups = global, world_textures, level_textures, shaders, allspawn
 
@@ -356,15 +362,15 @@ size=164136172
 crc32=FACBDA2C
 compression = 2
 condition = an4_rotten
+[file_56]
+path=patches\guns_mod_unofficial_food.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_unofficial_food.db
+size=9474320
+crc32=F9EDD139
+compression = 2
+condition = unofficial_food
 
 ; Reserved dor future options
-[file_56]
-path=patches\_reserved_1
-url=_reserved1
-size=1
-crc32=11111111
-compression = 2
-condition = _drop_always
 [file_57]
 path=patches\_reserved_2
 url=_reserved2
