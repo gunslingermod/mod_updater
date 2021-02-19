@@ -414,6 +414,8 @@ crc32=11111111
 compression = 2
 condition = _drop_always
 
+params_url = file://g:/test.list
+
 ;/////////////////////////////////////////////////////////////////
 ; Mutable gamedata stuff in patches, can be auto-generated
 [file_63]
