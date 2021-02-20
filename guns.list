@@ -376,11 +376,10 @@ size=9474320
 crc32=F9EDD139
 compression = 2
 condition = unofficial_food
-
 [file_57]
 path=patches\guns_mod_locale_eng.db
 url=https://raw.githubusercontent.com/gunslingermod/locale_eng/master/guns_mod_locale_eng.db
-params_url = file://g:/test.list
+params_url = https://raw.githubusercontent.com/gunslingermod/locale_eng/master/guns_mod_locale_eng.ini
 condition = english_locale
 
 ; Reserved dor future options
