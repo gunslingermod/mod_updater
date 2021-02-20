@@ -6,7 +6,7 @@ size = 3026944
 [main]
 files_count=89
 maintenance = false
-options_count = 7
+options_count = 6
 
 [option_0]
 key = new_hands
