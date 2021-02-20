@@ -56,150 +56,249 @@ name_ru = Неофициальная англоязычная локализац
 groups = locale
 
 ;/////////////////////////////////////////////////////////////////
+[component_desc_engine]
+description_ru = Движок игры
+description_en = Game engine
+
+[component_desc_engine_patch]
+description_ru = Библиотека движковых правок
+description_en = Engine patch library
+
+[component_desc_mod_launcher]
+description_ru = Ланчер мода
+description_en = Mod launcher
+
+[component_desc_mod_uninstaller]
+description_ru = Программа удаления мода
+description_en = Mod uninstaller
+
+[component_desc_mod_hands]
+description_ru = Пак рук
+description_en = Hands pack
+
+[component_desc_mod_an4_core]
+description_ru = Ядро Absolute Nature 4
+description_en = Absolute Nature 4 core files
+
+[component_desc_mod_an4_set]
+description_ru = Сет Absolute Nature 4
+description_en = Absolute Nature 4 custom set files
+
+[component_desc_mod_unofficial_food]
+description_ru = Неофициальный пак анимаций еды
+description_en = Unofficial food animations
+
+[component_desc_mod_locale_eng]
+description_ru = Английская локализация
+description_en = English localization
+
+[component_desc_mod_patch1602]
+description_ru = Оригинальный патч 1.6.02
+description_en = Original patch 1.6.02
+
+
+[component_desc_mod_camanims]
+description_ru = Анимации камеры
+description_en = Camera animations
+
+[component_desc_mod_meshes]
+description_ru = Модели и их анимации
+description_en = Models and animations
+
+[component_desc_mod_plaintext]
+description_ru = Основные конфиги и скрипты мода
+description_en = Configs and scripts
+
+[component_desc_mod_core_resources]
+description_ru = Общие ресурсы мода
+description_en = Core mod resources
+
+[component_desc_mod_sounds]
+description_ru = Звуки
+description_en = Sounds
+
+[component_desc_mod_core_textures]
+description_ru = Основные текстуры мода
+description_en = Core mod textures
+
+[component_desc_mod_weapon_textures]
+description_ru = Текстуры оружия
+description_en = Weapon textures
+
+;/////////////////////////////////////////////////////////////////
 ; Standard 1.6.02. engine files
 [file_0]
 path=bin\BugTrap.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/BugTrap.dll
+desc_section=component_desc_engine
 size=185024
 crc32=4F80AF32
 [file_1]
 path=bin\crypto.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/crypto.dll
+desc_section=component_desc_engine
 size=524288
 crc32=33AF2CB9
 [file_2]
 path=bin\d3dx9_42.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/d3dx9_42.dll
+desc_section=component_desc_engine
 size=1892184
 crc32=23D1C115
 [file_3]
 path=bin\dbghelp.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/dbghelp.dll
+desc_section=component_desc_engine
 size=644800
 crc32=DD29204E
 [file_4]
 path=bin\eax.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/eax.dll
+desc_section=component_desc_engine
 size=139968
 crc32=B3109DC1
 [file_5]
 path=bin\lua.JIT.1.1.4.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/lua.JIT.1.1.4.dll
+desc_section=component_desc_engine
 size=205504
 crc32=9F72DD10
 [file_6]
 path=bin\luabind.beta7-devel.rc4.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/luabind.beta7-devel.rc4.dll
+desc_section=component_desc_engine
 size=103104
 crc32=5118E002
 [file_7]
 path=bin\msvcr80.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/msvcr80.dll
+desc_section=component_desc_engine
 size=632656
 crc32=F4376274
 [file_8]
 path=bin\ode.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/ode.dll
+desc_section=component_desc_engine
 size=201408
 crc32=F7D85F00
 [file_9]
 path=bin\OpenAL32.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/OpenAL32.dll
+desc_section=component_desc_engine
 size=53952
 crc32=722C1DB0
 [file_10]
 path=bin\pctrlchk.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/pctrlchk.dll
+desc_section=component_desc_engine
 size=14528
 crc32=BBD9B249
 [file_11]
 path=bin\wrap_oal.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/wrap_oal.dll
+desc_section=component_desc_engine
 size=193216
 crc32=16726BBD
 [file_12]
 path=bin\xrAPI.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrAPI.dll
+desc_section=component_desc_engine
 size=12992
 crc32=74747BCB
 [file_13]
 path=bin\xrCDB.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrCDB.dll
+desc_section=component_desc_engine
 size=123584
 crc32=56750B10
 [file_14]
 path=bin\xrCore.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrCore.dll
+desc_section=component_desc_engine
 size=836288
 crc32=FD3CC8A7
 [file_15]
 path=bin\xrCPU_Pipe.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrCPU_Pipe.dll
+desc_section=component_desc_engine
 size=27840
 crc32=F296D847
 [file_16]
 path=bin\xrD3D9-Null.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrD3D9-Null.dll
+desc_section=component_desc_engine
 size=21696
 crc32=83296792
 [file_17]
 path=bin\xrEngine.exe
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrEngine.exe
+desc_section=component_desc_engine
 size=1058372
 crc32=E4423220
 [file_18]
 path=bin\xrGame.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrGame.dll
+desc_section=component_desc_engine
 size=7258816
 crc32=D4FF11DC
 [file_19]
 path=bin\xrGameSpy.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrGameSpy.dll
+desc_section=component_desc_engine
 size=250560
 crc32=4E436581
 [file_20]
 path=bin\xrNetServer.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrNetServer.dll
+desc_section=component_desc_engine
 size=90816
 crc32=F57076DD
 [file_21]
 path=bin\xrParticles.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrParticles.dll
+desc_section=component_desc_engine
 size=94912
 crc32=7F3797BC
 [file_22]
 path=bin\xrPhysics.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrPhysics.dll
+desc_section=component_desc_engine
 size=402112
 crc32=2C40E982
 [file_23]
 path=bin\xrRender_R1.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrRender_R1.dll
+desc_section=component_desc_engine
 size=1012416
 crc32=E4D76A6F
 [file_24]
 path=bin\xrRender_R2.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrRender_R2.dll
+desc_section=component_desc_engine
 size=1180352
 crc32=38C68682
 [file_25]
 path=bin\xrRender_R3.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrRender_R3.dll
+desc_section=component_desc_engine
 size=1311424
 crc32=36F65285
 [file_26]
 path=bin\xrRender_R4.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrRender_R4.dll
+desc_section=component_desc_engine
 size=1368768
 crc32=37140133
 [file_27]
 path=bin\xrSound.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrSound.dll
+desc_section=component_desc_engine
 size=254656
 crc32=7C50D12B
 [file_28]
 path=bin\xrXMLParser.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/xrXMLParser.dll
+desc_section=component_desc_engine
 size=62144
 crc32=1BEAF462
 
@@ -208,6 +307,7 @@ crc32=1BEAF462
 [file_29]
 path=bin\gunslinger_wpnpatch.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/gunslinger_wpnpatch.dll
+desc_section=component_desc_engine_patch
 size=279552 
 crc32=DAC52924
 
@@ -216,11 +316,13 @@ crc32=DAC52924
 [file_30]
 path=Play GUNSLINGER Mod.exe
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/launch.exe_
+desc_section=component_desc_mod_launcher
 size=1842688 
 crc32=9BE0EDB1
 [file_31]
 path=uninstall.exe
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/uninstall.exe_
+desc_section=component_desc_mod_uninstaller
 size=2267136  
 crc32=05292F6E
 
@@ -253,6 +355,7 @@ delete=true
 [file_39]
 path=patches\guns_data_hands_new_part1.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_hands_new_part1.db
+desc_section=component_desc_mod_hands
 size=137355937 
 crc32=8D218FAB
 compression = 2
@@ -260,6 +363,7 @@ condition = new_hands
 [file_40]
 path=patches\guns_data_hands_new_part2.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_hands_new_part2.db
+desc_section=component_desc_mod_hands
 size=109328087 
 crc32=2845C471
 compression = 2
@@ -274,6 +378,7 @@ condition = need_proxy
 [file_42]
 path=patches\guns_mod_an4_core_levels_jupiter1.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_levels_jupiter1.db
+desc_section=component_desc_mod_an4_core
 size=125979557
 crc32=9F5431D6
 compression = 2
@@ -281,6 +386,7 @@ condition = an4_default | an4_green | an4_autumn | an4_rotten
 [file_43]
 path=patches\guns_mod_an4_core_levels_jupiter2.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_levels_jupiter2.db
+desc_section=component_desc_mod_an4_core
 size=140036315
 crc32=B03B1613
 compression = 2
@@ -288,6 +394,7 @@ condition = an4_default | an4_green | an4_autumn | an4_rotten
 [file_44]
 path=patches\guns_mod_an4_core_levels_pripyat1.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_levels_pripyat1.db
+desc_section=component_desc_mod_an4_core
 size=106759648
 crc32=7303C39D
 compression = 2
@@ -295,6 +402,7 @@ condition = an4_default | an4_green | an4_autumn | an4_rotten
 [file_45]
 path=patches\guns_mod_an4_core_levels_pripyat2.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_levels_pripyat2.db
+desc_section=component_desc_mod_an4_core
 size=148117529
 crc32=52E39C64
 compression = 2
@@ -302,6 +410,7 @@ condition = an4_default | an4_green | an4_autumn | an4_rotten
 [file_46]
 path=patches\guns_mod_an4_core_levels_zaton1.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_levels_zaton1.db
+desc_section=component_desc_mod_an4_core
 size=145429025
 crc32=967099A9
 compression = 2
@@ -309,6 +418,7 @@ condition = an4_default | an4_green | an4_autumn | an4_rotten
 [file_47]
 path=patches\guns_mod_an4_core_levels_zaton2.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_levels_zaton2.db
+desc_section=component_desc_mod_an4_core
 size=138205203
 crc32=2F1BB764
 compression = 2
@@ -316,6 +426,7 @@ condition = an4_default | an4_green | an4_autumn | an4_rotten
 [file_48]
 path=patches\guns_mod_an4_core_resources.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_resources.db
+desc_section=component_desc_mod_an4_core
 size=30726945
 crc32=345D222A
 compression = 2
@@ -323,6 +434,7 @@ condition = an4_default | an4_green | an4_autumn | an4_rotten
 [file_49]
 path=patches\guns_mod_an4_core_textures1.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_textures1.db
+desc_section=component_desc_mod_an4_core
 size=124445726
 crc32=3AC61380
 compression = 2
@@ -330,6 +442,7 @@ condition = an4_default | an4_green | an4_autumn | an4_rotten
 [file_50]
 path=patches\guns_mod_an4_core_textures2.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_textures2.db
+desc_section=component_desc_mod_an4_core
 size=162728514
 crc32=569CECFD
 compression = 2
@@ -337,6 +450,7 @@ condition = an4_default | an4_green | an4_autumn | an4_rotten
 [file_51]
 path=patches\guns_mod_an4_core_textures3.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_textures3.db
+desc_section=component_desc_mod_an4_core
 size=210262698
 crc32=D474FCBB
 compression = 2
@@ -344,6 +458,7 @@ condition = an4_default | an4_green | an4_autumn | an4_rotten
 [file_52]
 path=patches\guns_mod_an4_set_default.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_set_default.db
+desc_section=component_desc_mod_an4_set
 size=163873477
 crc32=8BE5B39E
 compression = 2
@@ -351,6 +466,7 @@ condition = an4_default
 [file_53]
 path=patches\guns_mod_an4_set_green.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_set_green.db
+desc_section=component_desc_mod_an4_set
 size=166932379
 crc32=2170B965
 compression = 2
@@ -358,6 +474,7 @@ condition = an4_green
 [file_54]
 path=patches\guns_mod_an4_set_autumn.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_set_autumn.db
+desc_section=component_desc_mod_an4_set
 size=164135975
 crc32=AB69242A
 compression = 2
@@ -365,6 +482,7 @@ condition = an4_autumn
 [file_55]
 path=patches\guns_mod_an4_set_rotten.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_set_rotten.db
+desc_section=component_desc_mod_an4_set
 size=164136172
 crc32=FACBDA2C
 compression = 2
@@ -372,6 +490,7 @@ condition = an4_rotten
 [file_56]
 path=patches\guns_mod_unofficial_food.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_unofficial_food.db
+desc_section=component_desc_mod_unofficial_food
 size=9474320
 crc32=F9EDD139
 compression = 2
@@ -379,6 +498,7 @@ condition = unofficial_food
 [file_57]
 path=patches\guns_mod_locale_eng.db
 url=https://raw.githubusercontent.com/gunslingermod/locale_eng/master/guns_mod_locale_eng.db
+desc_section=component_desc_mod_locale_eng
 params_url = https://raw.githubusercontent.com/gunslingermod/locale_eng/master/guns_mod_locale_eng.ini
 condition = english_locale
 
@@ -424,18 +544,21 @@ condition = _drop_always
 [file_63]
 path=patches\game_data_patch_1602.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/game_data_patch_1602.db
+desc_section=component_desc_mod_patch1602
 size=35199417
 crc32=EEE94EBA
 compression=2
 [file_64]
 path=patches\guns_data_camanims.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_camanims.db
+desc_section=component_desc_mod_camanims
 size=904111
 crc32=8EF71260
 compression=2
 [file_65]
 path=patches\guns_data_hands.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_hands.db
+desc_section=component_desc_mod_hands
 size=74517054
 crc32=787E72CC
 condition = !new_hands
@@ -443,138 +566,161 @@ compression=2
 [file_66]
 path=patches\guns_data_meshes.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes.db
+desc_section=component_desc_mod_meshes
 size=25086596
 crc32=FBF2869C
 compression=2
 [file_67]
 path=patches\guns_data_meshes_af.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_af.db
+desc_section=component_desc_mod_meshes
 size=60629588
 crc32=823CDC75
 compression=2
 [file_68]
 path=patches\guns_data_meshes_gl.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_gl.db
+desc_section=component_desc_mod_meshes
 size=34669298
 crc32=58473E4A
 compression=2
 [file_69]
 path=patches\guns_data_meshes_mr.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_mr.db
+desc_section=component_desc_mod_meshes
 size=26441022
 crc32=FA458FF5
 compression=2
 [file_70]
 path=patches\guns_data_meshes_ss.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_ss.db
+desc_section=component_desc_mod_meshes
 size=59230546
 crc32=7BFA81DE
 compression=2
 [file_71]
 path=patches\guns_data_meshes_tz.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_tz.db
+desc_section=component_desc_mod_meshes
 size=32611843
 crc32=92573A5C
 compression=2
 [file_72]
 path=patches\guns_data_meshes_wpn.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_wpn.db
+desc_section=component_desc_mod_meshes
 size=7119631
 crc32=7F908175
 compression=2
 [file_73]
 path=patches\guns_data_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_plaintext.db
+desc_section=component_desc_mod_plaintext
 size=7112454
 crc32=4A4181CA
 compression=2
 [file_74]
 path=patches\guns_data_resources.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_resources.db
+desc_section=component_desc_mod_core_resources
 size=1767574
 crc32=94A7700B
 compression=2
 [file_75]
 path=patches\guns_data_sounds.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_sounds.db
+desc_section=component_desc_mod_sounds
 size=19376195
 crc32=D82FDD77
 compression=2
 [file_76]
 path=patches\guns_data_textures_common.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_common.db
+desc_section=component_desc_mod_core_textures
 size=95275318
 crc32=593A5F57
 compression=2
 [file_77]
 path=patches\guns_data_textures_wpn_ad.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_ad.db
+desc_section=component_desc_mod_weapon_textures
 size=68019517
 crc32=B7466C96
 compression=2
 [file_78]
 path=patches\guns_data_textures_wpn_fg.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_fg.db
+desc_section=component_desc_mod_weapon_textures
 size=90025854
 crc32=BBC0C54C
 compression=2
 [file_79]
 path=patches\guns_data_textures_wpn_hp.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_hp.db
+desc_section=component_desc_mod_weapon_textures
 size=65895535
 crc32=B75E0059
 compression=2
 [file_80]
 path=patches\guns_data_textures_wpn_rs.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_rs.db
+desc_section=component_desc_mod_weapon_textures
 size=89931000
 crc32=97E85B29
 compression=2
 [file_81]
 path=patches\guns_data_textures_wpn_tw.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_tw.db
+desc_section=component_desc_mod_weapon_textures
 size=41428331
 crc32=1BDBFB16
 compression=2
 [file_82]
 path=patches\guns_data_textures_wpn_wpn_ag.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_ag.db
+desc_section=component_desc_mod_weapon_textures
 size=130452703
 crc32=E355D72D
 compression=2
 [file_83]
 path=patches\guns_data_textures_wpn_wpn_hk.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_hk.db
+desc_section=component_desc_mod_weapon_textures
 size=52874515
 crc32=C1CA20D9
 compression=2
 [file_84]
 path=patches\guns_data_textures_wpn_wpn_lm.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_lm.db
+desc_section=component_desc_mod_weapon_textures
 size=91331079
 crc32=824B0895
 compression=2
 [file_85]
 path=patches\guns_data_textures_wpn_wpn_pr.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_pr.db
+desc_section=component_desc_mod_weapon_textures
 size=59422966
 crc32=C5149C21
 compression=2
 [file_86]
 path=patches\guns_data_textures_wpn_wpn_ss1.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_ss1.db
+desc_section=component_desc_mod_weapon_textures
 size=202395973
 crc32=F6368E37
 compression=2
 [file_87]
 path=patches\guns_data_textures_wpn_wpn_ss2.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_ss2.db
+desc_section=component_desc_mod_weapon_textures
 size=65715459
 crc32=A9DE7C13
 compression=2
 [file_88]
 path=patches\guns_data_textures_wpn_wpn_tz.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_tz.db
+desc_section=component_desc_mod_weapon_textures
 size=62919887
 crc32=F3572E05
 compression=2
