@@ -6,7 +6,7 @@ size = 3026944
 [main]
 files_count=89
 maintenance = false
-options_count = 6
+options_count = 7
 
 [option_0]
 key = new_hands
@@ -47,6 +47,13 @@ name_en = Absolute Nature 4 by Cromm Cruac: Rotten Pack (warning - saved games i
 name_ru = Absolute Nature 4 от Cromm Cruac: Рыжий пак (внимание - несовместимость сейвов!)
 ; "global" - means global adaptation with own name in gunslinger_addons.ltx
 groups = global, world_textures, level_textures, shaders, allspawn
+
+[option_6]
+key = english_locale
+name_en = Unofficial English localization
+name_ru = Неофициальная англоязычная локализация
+; "global" - means global adaptation with own name in gunslinger_addons.ltx
+groups = locale
 
 ;/////////////////////////////////////////////////////////////////
 ; Standard 1.6.02. engine files
@@ -370,14 +377,13 @@ crc32=F9EDD139
 compression = 2
 condition = unofficial_food
 
-; Reserved dor future options
 [file_57]
-path=patches\_reserved_2
-url=_reserved2
-size=1
-crc32=11111111
-compression = 2
-condition = _drop_always
+path=patches\guns_mod_locale_eng.db
+url=https://raw.githubusercontent.com/gunslingermod/locale_eng/master/guns_mod_locale_eng.db
+params_url = file://g:/test.list
+condition = english_locale
+
+; Reserved dor future options
 [file_58]
 path=patches\_reserved_3
 url=_reserved3
@@ -413,8 +419,6 @@ size=1
 crc32=11111111
 compression = 2
 condition = _drop_always
-
-params_url = file://g:/test.list
 
 ;/////////////////////////////////////////////////////////////////
 ; Mutable gamedata stuff in patches, can be auto-generated
