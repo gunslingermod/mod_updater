@@ -1,12 +1,12 @@
 [updater]
 url = https://raw.githubusercontent.com/gunslingermod/mod_data/master/CheckUpdates.exe_
-md5 = 1D19736812B60B7318814655D878F7FC
-size = 3026944   
+md5 = 10C5F2D87BDD3E9E303F51AA4F0D2205
+size = 3030016   
 
 [main]
 files_count=89
-maintenance = false
-options_count = 6
+maintenance = true
+options_count = 7
 
 [option_0]
 key = new_hands
@@ -317,8 +317,8 @@ crc32=DAC52924
 path=Play GUNSLINGER Mod.exe
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/launch.exe_
 desc_section=component_desc_mod_launcher
-size=1842688 
-crc32=9BE0EDB1
+size=2067968 
+crc32=4BBC28D1
 [file_31]
 path=uninstall.exe
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/uninstall.exe_
