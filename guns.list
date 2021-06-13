@@ -309,7 +309,7 @@ path=bin\gunslinger_wpnpatch.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/gunslinger_wpnpatch.dll
 desc_section=component_desc_engine_patch
 size=292352 
-crc32=CD0B9C67
+crc32=54CFB3BF
 
 ;/////////////////////////////////////////////////////////////////
 ; Launcher & uninstaller
