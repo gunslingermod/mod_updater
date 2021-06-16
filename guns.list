@@ -318,7 +318,7 @@ path=Play GUNSLINGER Mod.exe
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/launch.exe_
 desc_section=component_desc_mod_launcher
 size=2067968 
-crc32=4CE29624
+crc32=E1E18798
 [file_31]
 path=uninstall.exe
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/uninstall.exe_
