@@ -616,8 +616,8 @@ compression=2
 path=patches\guns_data_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_plaintext.db
 desc_section=component_desc_mod_plaintext
-size=8145149
-crc32=BDE19E12
+size=8146514
+crc32=72C3A416
 compression=2
 [file_74]
 path=patches\guns_data_resources.db
