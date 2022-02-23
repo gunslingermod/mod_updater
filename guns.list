@@ -308,8 +308,8 @@ crc32=1BEAF462
 path=bin\gunslinger_wpnpatch.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/gunslinger_wpnpatch.dll
 desc_section=component_desc_engine_patch
-size=292352 
-crc32=54CFB3BF
+size=310784 
+crc32=5D892666
 
 ;/////////////////////////////////////////////////////////////////
 ; Launcher & uninstaller
@@ -552,8 +552,8 @@ compression=2
 path=patches\guns_data_camanims.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_camanims.db
 desc_section=component_desc_mod_camanims
-size=926809
-crc32=905DBABF
+size=962008
+crc32=1B906FB4
 compression=2
 [file_65]
 path=patches\guns_data_hands.db
@@ -567,8 +567,8 @@ compression=2
 path=patches\guns_data_meshes.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes.db
 desc_section=component_desc_mod_meshes
-size=25136926
-crc32=2F969951
+size=25965082
+crc32=59A01260
 compression=2
 [file_67]
 path=patches\guns_data_meshes_af.db
@@ -581,15 +581,15 @@ compression=2
 path=patches\guns_data_meshes_gl.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_gl.db
 desc_section=component_desc_mod_meshes
-size=43174789
-crc32=EFACEB18
+size=43195190
+crc32=779620B8
 compression=2
 [file_69]
 path=patches\guns_data_meshes_mr.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_mr.db
 desc_section=component_desc_mod_meshes
-size=26441022
-crc32=FA458FF5
+size=28058949
+crc32=DB607710
 compression=2
 [file_70]
 path=patches\guns_data_meshes_ss.db
@@ -616,15 +616,15 @@ compression=2
 path=patches\guns_data_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_plaintext.db
 desc_section=component_desc_mod_plaintext
-size=8146514
-crc32=72C3A416
+size=8325344
+crc32=AA35D04E
 compression=2
 [file_74]
 path=patches\guns_data_resources.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_resources.db
 desc_section=component_desc_mod_core_resources
-size=1780918
-crc32=796DA969
+size=1781090
+crc32=C4C0B531
 compression=2
 [file_75]
 path=patches\guns_data_sounds.db
@@ -637,8 +637,8 @@ compression=2
 path=patches\guns_data_textures_common.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_common.db
 desc_section=component_desc_mod_core_textures
-size=97642352
-crc32=34C2BCAE
+size=112690342
+crc32=56504DF5
 compression=2
 [file_77]
 path=patches\guns_data_textures_wpn_ad.db
@@ -700,8 +700,8 @@ compression=2
 path=patches\guns_data_textures_wpn_wpn_pr.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_pr.db
 desc_section=component_desc_mod_weapon_textures
-size=90882808
-crc32=DABABE7B
+size=104864661
+crc32=F5546478
 compression=2
 [file_86]
 path=patches\guns_data_textures_wpn_wpn_ss1.db
