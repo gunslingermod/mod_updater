@@ -491,8 +491,8 @@ condition = an4_rotten
 path=patches\guns_mod_unofficial_food.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_unofficial_food.db
 desc_section=component_desc_mod_unofficial_food
-size=9474320
-crc32=F9EDD139
+size=9627191
+crc32=DB580B51
 compression = 2
 condition = unofficial_food
 [file_57]
