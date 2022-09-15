@@ -316,8 +316,8 @@ crc32=1BEAF462
 path=bin\gunslinger_wpnpatch.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/gunslinger_wpnpatch.dll
 desc_section=component_desc_engine_patch
-size=310784 
-crc32=5D892666
+size=315392 
+crc32=33668344
 
 ;/////////////////////////////////////////////////////////////////
 ; Launcher & uninstaller
@@ -325,8 +325,8 @@ crc32=5D892666
 path=Play GUNSLINGER Mod.exe
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/launch.exe_
 desc_section=component_desc_mod_launcher
-size=315392 
-crc32=33668344
+size=2067968 
+crc32=E1E18798
 [file_31]
 path=uninstall.exe
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/uninstall.exe_
