@@ -510,31 +510,31 @@ desc_section=component_desc_mod_locale_eng
 params_url = https://raw.githubusercontent.com/gunslingermod/locale_eng/master/guns_mod_locale_eng.ini
 condition = english_locale
 [file_58]
-path=patches\guns_addon_cgim2_plaintext.db
+path=patches\guns_mod_cgim2_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_plaintext.db
 desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_plaintext.ini
 condition=cgim2
 [file_59]
-path=patches\guns_addon_cgim2_textures1
+path=patches\guns_mod_cgim2_textures1
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures1.db
 desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures1.ini
 condition=cgim2
 [file_60]
-path=patches\guns_addon_cgim2_textures2.db
+path=patches\guns_mod_cgim2_textures2.db
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures2.db
 desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures2.ini
 condition=cgim2
 [file_61]
-path=patches\guns_addon_cgim2_textures3.db
+path=patches\guns_mod_cgim2_textures3.db
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures3.db
 desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures3.ini
 condition=cgim2
 [file_62]
-path=patches\guns_addon_cgim2_textures4.db
+path=patches\guns_mod_cgim2_textures4.db
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures4.db
 desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures4.ini
