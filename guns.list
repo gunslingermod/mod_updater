@@ -364,8 +364,8 @@ delete=true
 path=patches\guns_data_hands_new_part1.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_hands_new_part1.db
 desc_section=component_desc_mod_hands
-size=137355937 
-crc32=8D218FAB
+size=137355987 
+crc32=0B4FF43F
 compression = 2
 condition = new_hands
 [file_40]
@@ -499,8 +499,8 @@ condition = an4_rotten
 path=patches\guns_mod_unofficial_food.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_unofficial_food.db
 desc_section=component_desc_mod_unofficial_food
-size=9627191
-crc32=DB580B51
+size=9718571
+crc32=EBCADC7C
 compression = 2
 condition = unofficial_food
 [file_57]
