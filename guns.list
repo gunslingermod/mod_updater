@@ -6,7 +6,7 @@ size = 3030016
 [main]
 files_count=89
 maintenance = false
-options_count = 7
+options_count = 8
 
 [option_0]
 key = new_hands
@@ -21,38 +21,43 @@ name_ru = Анимации еды (неофициальный фанатский
 groups = usable_configs
 
 [option_2]
+key = cgim2
+name_en = CGIM2
+name_ru = CGIM2
+groups = weather
+
+[option_3]
 key = an4_default
 name_en = Absolute Nature 4 by Cromm Cruac: Default Pack (warning - saved games incompatibility!)
 name_ru = Absolute Nature 4 от Cromm Cruac: Стандартный пак (внимание - несовместимость сейвов!)
 ; "global" - means global adaptation with own name in gunslinger_addons.ltx
 groups = global, world_textures, level_textures, shaders, allspawn
 
-[option_3]
+[option_4]
 key = an4_green
 name_en = Absolute Nature 4 by Cromm Cruac: Green Pack (warning - saved games incompatibility!)
 name_ru = Absolute Nature 4 от Cromm Cruac: Летний пак (внимание - несовместимость сейвов!)
 ; "global" - means global adaptation with own name in gunslinger_addons.ltx
 groups = global, world_textures, level_textures, shaders, allspawn
 
-[option_4]
+[option_5]
 key = an4_autumn
 name_en = Absolute Nature 4 by Cromm Cruac: Autumn Pack (warning - saved games incompatibility!)
 name_ru = Absolute Nature 4 от Cromm Cruac: Осенний пак (внимание - несовместимость сейвов!)
 ; "global" - means global adaptation with own name in gunslinger_addons.ltx
 groups = global, world_textures, level_textures, shaders, allspawn
 
-[option_5]
+[option_6]
 key = an4_rotten
 name_en = Absolute Nature 4 by Cromm Cruac: Rotten Pack (warning - saved games incompatibility!)
 name_ru = Absolute Nature 4 от Cromm Cruac: Рыжий пак (внимание - несовместимость сейвов!)
 ; "global" - means global adaptation with own name in gunslinger_addons.ltx
 groups = global, world_textures, level_textures, shaders, allspawn
 
-[option_6]
+[option_7]
 key = english_locale
 name_en = Unofficial English localization
 name_ru = Неофициальная англоязычная локализация
-; "global" - means global adaptation with own name in gunslinger_addons.ltx
 groups = locale
 
 ;/////////////////////////////////////////////////////////////////
@@ -96,7 +101,6 @@ description_en = English localization
 description_ru = Оригинальный патч 1.6.02
 description_en = Original patch 1.6.02
 
-
 [component_desc_mod_camanims]
 description_ru = Анимации камеры
 description_en = Camera animations
@@ -124,6 +128,10 @@ description_en = Core mod textures
 [component_desc_mod_weapon_textures]
 description_ru = Текстуры оружия
 description_en = Weapon textures
+
+[component_desc_mod_cgim2]
+description_ru = CGIM2
+description_en = CGIM2
 
 ;/////////////////////////////////////////////////////////////////
 ; Standard 1.6.02. engine files
@@ -501,44 +509,36 @@ url=https://raw.githubusercontent.com/gunslingermod/locale_eng/master/guns_mod_l
 desc_section=component_desc_mod_locale_eng
 params_url = https://raw.githubusercontent.com/gunslingermod/locale_eng/master/guns_mod_locale_eng.ini
 condition = english_locale
-
-; Reserved dor future options
 [file_58]
-path=patches\_reserved_3
-url=_reserved3
-size=1
-crc32=11111111
-compression = 2
-condition = _drop_always
+path=patches\guns_addon_cgim2_plaintext.db
+url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_plaintext.db
+desc_section=component_desc_mod_cgim2
+params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_plaintext.ini
+condition=cgim2
 [file_59]
-path=patches\_reserved_4
-url=_reserved4
-size=1
-crc32=11111111
-compression = 2
-condition = _drop_always
+path=patches\guns_addon_cgim2_textures1
+url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures1.db
+desc_section=component_desc_mod_cgim2
+params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures1.ini
+condition=cgim2
 [file_60]
-path=patches\_reserved_5
-url=_reserved5
-size=1
-crc32=11111111
-compression = 2
-condition = _drop_always
+path=patches\guns_addon_cgim2_textures2.db
+url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures2.db
+desc_section=component_desc_mod_cgim2
+params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures2.ini
+condition=cgim2
 [file_61]
-path=patches\_reserved_6
-url=_reserved6
-size=1
-crc32=11111111
-compression = 2
-condition = _drop_always
+path=patches\guns_addon_cgim2_textures3.db
+url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures3.db
+desc_section=component_desc_mod_cgim2
+params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures3.ini
+condition=cgim2
 [file_62]
-path=patches\_reserved_7
-url=_reserved7
-size=1
-crc32=11111111
-compression = 2
-condition = _drop_always
-
+path=patches\guns_addon_cgim2_textures4.db
+url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures4.db
+desc_section=component_desc_mod_cgim2
+params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures4.ini
+condition=cgim2
 ;/////////////////////////////////////////////////////////////////
 ; Mutable gamedata stuff in patches, can be auto-generated
 [file_63]
