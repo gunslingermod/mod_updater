@@ -325,8 +325,8 @@ crc32=5D892666
 path=Play GUNSLINGER Mod.exe
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/launch.exe_
 desc_section=component_desc_mod_launcher
-size=2067968 
-crc32=E1E18798
+size=315392 
+crc32=33668344
 [file_31]
 path=uninstall.exe
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/uninstall.exe_
@@ -567,8 +567,8 @@ compression=2
 path=patches\guns_data_meshes.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes.db
 desc_section=component_desc_mod_meshes
-size=25965082
-crc32=59A01260
+size=26221361 
+crc32=FE8B96AB
 compression=2
 [file_67]
 path=patches\guns_data_meshes_af.db
