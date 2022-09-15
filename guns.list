@@ -516,7 +516,7 @@ desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_plaintext.ini
 condition=cgim2
 [file_59]
-path=patches\guns_mod_cgim2_textures1
+path=patches\guns_mod_cgim2_textures1.db
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures1.db
 desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures1.ini
