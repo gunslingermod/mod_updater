@@ -5,7 +5,7 @@ size = 3030016
 
 [main]
 files_count=89
-maintenance = true
+maintenance = false
 options_count = 8
 
 [option_0]
@@ -22,8 +22,8 @@ groups = usable_configs
 
 [option_2]
 key = cgim2
-name_en = CGIM2
-name_ru = CGIM2
+name_en = CGIM2 (модификация погоды)
+name_ru = CGIM2 (modified weather)
 groups = weather
 
 [option_3]
