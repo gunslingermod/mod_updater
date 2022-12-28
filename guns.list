@@ -22,8 +22,8 @@ groups = usable_configs
 
 [option_2]
 key = cgim2
-name_en = CGIM2 (модификация погоды)
-name_ru = CGIM2 (modified weather)
+name_ru = CGIM2 (модификация погоды)
+name_en = CGIM2 (modified weather)
 groups = weather
 
 [option_3]
