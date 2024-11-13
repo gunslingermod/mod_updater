@@ -6,7 +6,7 @@ size = 3030016
 [main]
 files_count=89
 maintenance = true
-options_count = 8
+options_count = 9
 
 [option_0]
 key = new_hands
@@ -21,44 +21,51 @@ name_ru = Анимации еды (неофициальный фанатский
 groups = usable_configs
 
 [option_2]
+key = different_slots
+name_en = Unequal weapon slots
+name_ru = Неравнозначные слоты
+groups = pistol_slots_configs
+
+[option_3]
 key = cgim2
 name_ru = CGIM2 (модификация погоды)
 name_en = CGIM2 (modified weather)
 groups = weather
 
-[option_3]
+[option_4]
 key = an4_default
 name_en = Absolute Nature 4 by Cromm Cruac: Default Pack (warning - saved games incompatibility!)
 name_ru = Absolute Nature 4 от Cromm Cruac: Стандартный пак (внимание - несовместимость сейвов!)
 ; "global" - means global adaptation with own name in gunslinger_addons.ltx
 groups = global, world_textures, level_textures, shaders, allspawn
 
-[option_4]
+[option_5]
 key = an4_green
 name_en = Absolute Nature 4 by Cromm Cruac: Green Pack (warning - saved games incompatibility!)
 name_ru = Absolute Nature 4 от Cromm Cruac: Летний пак (внимание - несовместимость сейвов!)
 ; "global" - means global adaptation with own name in gunslinger_addons.ltx
 groups = global, world_textures, level_textures, shaders, allspawn
 
-[option_5]
+[option_6]
 key = an4_autumn
 name_en = Absolute Nature 4 by Cromm Cruac: Autumn Pack (warning - saved games incompatibility!)
 name_ru = Absolute Nature 4 от Cromm Cruac: Осенний пак (внимание - несовместимость сейвов!)
 ; "global" - means global adaptation with own name in gunslinger_addons.ltx
 groups = global, world_textures, level_textures, shaders, allspawn
 
-[option_6]
+[option_7]
 key = an4_rotten
 name_en = Absolute Nature 4 by Cromm Cruac: Rotten Pack (warning - saved games incompatibility!)
 name_ru = Absolute Nature 4 от Cromm Cruac: Рыжий пак (внимание - несовместимость сейвов!)
 ; "global" - means global adaptation with own name in gunslinger_addons.ltx
 groups = global, world_textures, level_textures, shaders, allspawn
 
-[option_7]
+[option_8]
 key = english_locale
 name_en = Unofficial English localization
 name_ru = Неофициальная англоязычная локализация
 groups = locale
+
 
 ;/////////////////////////////////////////////////////////////////
 [component_desc_engine]
@@ -504,36 +511,42 @@ crc32=F81BEB99
 compression = 2
 condition = unofficial_food
 [file_57]
+path=patches\guns_mod_differentslots.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/guns_mod_differentslots.db
+size=2994   
+crc32=A97BE31D
+condition = different_slots
+[file_58]
 path=patches\guns_mod_locale_eng.db
 url=https://raw.githubusercontent.com/gunslingermod/locale_eng/master/guns_mod_locale_eng.db
 desc_section=component_desc_mod_locale_eng
 params_url = https://raw.githubusercontent.com/gunslingermod/locale_eng/master/guns_mod_locale_eng.ini
 condition = english_locale
-[file_58]
+[file_59]
 path=patches\guns_mod_cgim2_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_plaintext.db
 desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_plaintext.ini
 condition=cgim2
-[file_59]
+[file_60]
 path=patches\guns_mod_cgim2_textures1.db
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures1.db
 desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures1.ini
 condition=cgim2
-[file_60]
+[file_61]
 path=patches\guns_mod_cgim2_textures2.db
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures2.db
 desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures2.ini
 condition=cgim2
-[file_61]
+[file_62]
 path=patches\guns_mod_cgim2_textures3.db
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures3.db
 desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures3.ini
 condition=cgim2
-[file_62]
+[file_63]
 path=patches\guns_mod_cgim2_textures4.db
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures4.db
 desc_section=component_desc_mod_cgim2
@@ -541,21 +554,21 @@ params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_add
 condition=cgim2
 ;/////////////////////////////////////////////////////////////////
 ; Mutable gamedata stuff in patches, can be auto-generated
-[file_63]
+[file_64]
 path=patches\game_data_patch_1602.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/game_data_patch_1602.db
 desc_section=component_desc_mod_patch1602
 size=35199417
 crc32=EEE94EBA
 compression=2
-[file_64]
+[file_65]
 path=patches\guns_data_camanims.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_camanims.db
 desc_section=component_desc_mod_camanims
 size=1038049
 crc32=52CD8A25
 compression=2
-[file_65]
+[file_66]
 path=patches\guns_data_hands.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_hands.db
 desc_section=component_desc_mod_hands
@@ -563,161 +576,161 @@ size=74517054
 crc32=787E72CC
 condition = !new_hands
 compression=2
-[file_66]
+[file_67]
 path=patches\guns_data_meshes.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes.db
 desc_section=component_desc_mod_meshes
 size=26221361 
 crc32=FE8B96AB
 compression=2
-[file_67]
+[file_68]
 path=patches\guns_data_meshes_af.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_af.db
 desc_section=component_desc_mod_meshes
 size=60629588
 crc32=823CDC75
 compression=2
-[file_68]
+[file_69]
 path=patches\guns_data_meshes_gl.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_gl.db
 desc_section=component_desc_mod_meshes
 size=43204020
 crc32=62BD0731
 compression=2
-[file_69]
+[file_70]
 path=patches\guns_data_meshes_mr.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_mr.db
 desc_section=component_desc_mod_meshes
 size=32440906
 crc32=324DE3A9
 compression=2
-[file_70]
+[file_71]
 path=patches\guns_data_meshes_ss.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_ss.db
 desc_section=component_desc_mod_meshes
 size=59230546
 crc32=7BFA81DE
 compression=2
-[file_71]
+[file_72]
 path=patches\guns_data_meshes_tz.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_tz.db
 desc_section=component_desc_mod_meshes
 size=38508002 
 crc32=5D0C1CA7
 compression=2
-[file_72]
+[file_73]
 path=patches\guns_data_meshes_wpn.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_wpn.db
 desc_section=component_desc_mod_meshes
 size=7912367
 crc32=1344E078
 compression=2
-[file_73]
+[file_74]
 path=patches\guns_data_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_plaintext.db
 desc_section=component_desc_mod_plaintext
 size=8900798 
 crc32=D49B1269
 compression=2
-[file_74]
+[file_75]
 path=patches\guns_data_resources.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_resources.db
 desc_section=component_desc_mod_core_resources
 size=1781090
 crc32=C4C0B531
 compression=2
-[file_75]
+[file_76]
 path=patches\guns_data_sounds.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_sounds.db
 desc_section=component_desc_mod_sounds
 size=19909246
 crc32=E32EBD56
 compression=2
-[file_76]
+[file_77]
 path=patches\guns_data_textures_common.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_common.db
 desc_section=component_desc_mod_core_textures
 size=118981817
 crc32=FF13006A
 compression=2
-[file_77]
+[file_78]
 path=patches\guns_data_textures_wpn_ad.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_ad.db
 desc_section=component_desc_mod_weapon_textures
 size=68019517
 crc32=B7466C96
 compression=2
-[file_78]
+[file_79]
 path=patches\guns_data_textures_wpn_fg.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_fg.db
 desc_section=component_desc_mod_weapon_textures
 size=90025853
 crc32=DA3E38A7
 compression=2
-[file_79]
+[file_80]
 path=patches\guns_data_textures_wpn_hp.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_hp.db
 desc_section=component_desc_mod_weapon_textures
 size=65895535
 crc32=B75E0059
 compression=2
-[file_80]
+[file_81]
 path=patches\guns_data_textures_wpn_rs.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_rs.db
 desc_section=component_desc_mod_weapon_textures
 size=89931000
 crc32=97E85B29
 compression=2
-[file_81]
+[file_82]
 path=patches\guns_data_textures_wpn_tw.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_tw.db
 desc_section=component_desc_mod_weapon_textures
 size=41428331
 crc32=1BDBFB16
 compression=2
-[file_82]
+[file_83]
 path=patches\guns_data_textures_wpn_wpn_ag.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_ag.db
 desc_section=component_desc_mod_weapon_textures
 size=133266733
 crc32=486F7BDC
 compression=2
-[file_83]
+[file_84]
 path=patches\guns_data_textures_wpn_wpn_hk.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_hk.db
 desc_section=component_desc_mod_weapon_textures
 size=52874515
 crc32=C1CA20D9
 compression=2
-[file_84]
+[file_85]
 path=patches\guns_data_textures_wpn_wpn_lm.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_lm.db
 desc_section=component_desc_mod_weapon_textures
 size=91331079
 crc32=824B0895
 compression=2
-[file_85]
+[file_86]
 path=patches\guns_data_textures_wpn_wpn_pr.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_pr.db
 desc_section=component_desc_mod_weapon_textures
 size=104864661
 crc32=F5546478
 compression=2
-[file_86]
+[file_87]
 path=patches\guns_data_textures_wpn_wpn_ss1.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_ss1.db
 desc_section=component_desc_mod_weapon_textures
 size=202395973
 crc32=F6368E37
 compression=2
-[file_87]
+[file_88]
 path=patches\guns_data_textures_wpn_wpn_ss2.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_ss2.db
 desc_section=component_desc_mod_weapon_textures
 size=85289725
 crc32=7930A300
 compression=2
-[file_88]
+[file_89]
 path=patches\guns_data_textures_wpn_wpn_tz.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_tz.db
 desc_section=component_desc_mod_weapon_textures
