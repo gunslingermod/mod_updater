@@ -22,8 +22,8 @@ groups = usable_configs
 
 [option_2]
 key = different_slots
-name_en = Unequal weapon slots
-name_ru = Неравнозначные слоты
+name_en = Limited (depending on suit class) pistol slot
+name_ru = Ограниченный по возможностям (в зависимости от класса костюма) пистолетный слот
 groups = pistol_slots_configs
 
 [option_3]
