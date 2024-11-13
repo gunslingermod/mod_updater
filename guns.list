@@ -512,7 +512,7 @@ compression = 2
 condition = unofficial_food
 [file_57]
 path=patches\guns_mod_differentslots.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/guns_mod_differentslots.db
+url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_differentslots.db
 size=2994   
 crc32=A97BE31D
 condition = different_slots
