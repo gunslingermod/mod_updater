@@ -100,6 +100,10 @@ description_en = Absolute Nature 4 custom set files
 description_ru = Неофициальный пак анимаций еды
 description_en = Unofficial food animations
 
+[component_desc_mod_differentslots]
+description_ru = Настройки оружейных слотов
+description_en = Weapon slots preferences
+
 [component_desc_mod_locale_eng]
 description_ru = Английская локализация
 description_en = English localization
@@ -513,6 +517,7 @@ condition = unofficial_food
 [file_57]
 path=patches\guns_mod_differentslots.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_differentslots.db
+desc_section=component_desc_mod_differentslots
 size=2994   
 crc32=A97BE31D
 condition = different_slots
