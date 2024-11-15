@@ -629,8 +629,8 @@ compression=2
 path=patches\guns_data_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_plaintext.db
 desc_section=component_desc_mod_plaintext
-size=8900798 
-crc32=D49B1269
+size=8899865
+crc32=9BD144A8
 compression=2
 [file_75]
 path=patches\guns_data_resources.db
@@ -650,8 +650,8 @@ compression=2
 path=patches\guns_data_textures_common.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_common.db
 desc_section=component_desc_mod_core_textures
-size=118981817
-crc32=FF13006A
+size=118981818
+crc32=9C5794C7
 compression=2
 [file_78]
 path=patches\guns_data_textures_wpn_ad.db
